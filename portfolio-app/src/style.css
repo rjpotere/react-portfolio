@@ -13,3 +13,8 @@
 .img-box img {
     width: 265px;
 }
+
+.projectDiv {
+    display: flex;
+    flex-direction: column;
+}

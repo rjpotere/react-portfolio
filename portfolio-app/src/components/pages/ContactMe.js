@@ -8,6 +8,7 @@ export default function ContactMe() {
             <form>
                 <div className="contactForm">
                 <input placeholder="Name"/>
+                <input placeholder="Email address"/>
                 <textarea placeholder="Leave a message!"/>
                 </div>
             </form>
