@@ -1,0 +1,12 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerDiv {
+    display: flex;
+}
+
+.active {
+    color: red;
+}
