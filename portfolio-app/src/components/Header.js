@@ -7,19 +7,19 @@ function Header({ currentPage, handlePageChange }) {
         <div className="headerDiv">
         <header>
             <h1>Ryan Potere</h1>
-        </header>
+
         <ul className='nav'>
             <li className='nav-item'>
-                <span href="#home" onClick={() => handlePageChange('Home')}
+                <a href="#home" onClick={() => handlePageChange('Home')}
                 className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
                     Home
-                </span>
+                </a>
             </li>
             <li className='nav-item'>
-                <span href="#projects" onClick={() => handlePageChange('Projects')}
+                <a href="#projects" onClick={() => handlePageChange('Projects')}
                 className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>
                     Projects
-                </span>
+                </a>
             </li>
             <li className='nav-item'>
                 <a href="#about" onClick={() => handlePageChange('About')}
@@ -34,6 +34,7 @@ function Header({ currentPage, handlePageChange }) {
                 </a>
             </li>
         </ul>
+        </header>
         </div>
     )
 }

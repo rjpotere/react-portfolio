@@ -6,7 +6,7 @@ import Projects from '../components/pages/Projects';
 import ContactMe from '../components/pages/ContactMe';
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
         if (currentPage === 'Home') {

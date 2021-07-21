@@ -1,10 +1,14 @@
 import React from 'react';
+import myPicture from '../../assets/images/ryan-potere-photo.png'
 
 export default function About() {
     return (
-        <div>
+        <div className="about-me">
             <h1>About Me</h1>
-            <p>Stuff about me....!</p>
+            <div className="img-box">
+            <img className="" src={myPicture} alt="Photo of junior developer"/>
+            </div>
+            <p>My name is Ryan Potere, I am a junior developer with a passion for web design. Follow me as I continue on my journey of becoming a web developer!</p>
         </div>
     )
 }
