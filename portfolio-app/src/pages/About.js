@@ -1,5 +1,5 @@
 import React from 'react';
-import myPicture from '../../assets/images/ryan-potere-photo.png'
+import myPicture from '../assets/images/ryan-potere-photo.png'
 
 export default function About() {
     return (

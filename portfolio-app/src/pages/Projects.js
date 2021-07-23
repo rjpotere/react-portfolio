@@ -1,10 +1,10 @@
 import React from 'react';
-import stockTracker from '../../assets/images/stock-tracker.png';
-import weatherApi from '../../assets/images/weatherdashboard.png';
-import musicMashup from '../../assets/images/musicmashup.png';
-import workScheduler from '../../assets/images/workscheduler.png';
-import TechBlog from '../../assets/images/tech-blog.png';
-import NoteTaker from '../../assets/images/note-taker.png';
+import stockTracker from '../assets/images/stock-tracker.png';
+import weatherApi from '../assets/images/weatherdashboard.png';
+import musicMashup from '../assets/images/musicmashup.png';
+import workScheduler from '../assets/images/workscheduler.png';
+import TechBlog from '../assets/images/tech-blog.png';
+import NoteTaker from '../assets/images/note-taker.png';
 
 export default function Projects() {
     return (
