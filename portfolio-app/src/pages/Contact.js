@@ -1,17 +1,12 @@
 import React from 'react';
+import ContactForm from '../components/ContactForm';
 
 export default function ContactMe() {
     return (
         <div>
             <h1>Contact Me</h1>
-            <p>Contact me....!</p>
-            <form>
-                <div className="contactForm">
-                <input placeholder="Name"/>
-                <input placeholder="Email address"/>
-                <textarea placeholder="Leave a message!"/>
-                </div>
-            </form>
+            <p>Send me a message!</p>
+            <ContactForm />
         </div>
     )
 }

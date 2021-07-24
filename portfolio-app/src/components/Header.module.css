@@ -1,14 +1,10 @@
-.active {
-    color: red;
-}
 
 header {
     display: flex;
     text-align: center;
     flex-direction: column;
-    padding: 20px 20px 0px 40px;
+    padding-left: 10px;
+    padding-top: 20px;
+    letter-spacing: 10px;
 }
 
-ul {
-    justify-content: center;
-}
