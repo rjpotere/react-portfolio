@@ -1,34 +1,31 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
-function Navtabs({ currentPage, handlePageChange }) {
+function Navtabs() {
     return (
         <div>
-        <ul className='nav'>
-            <li className='nav-item'>
-                <a href="#home" onClick={() => handlePageChange('Home')}
-                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
-                    Home
-                </a>
-            </li>
-            <li className='nav-item'>
-                <a href="#projects" onClick={() => handlePageChange('Projects')}
-                className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>
-                    Projects
-                </a>
-            </li>
-            <li className='nav-item'>
-                <a href="#about" onClick={() => handlePageChange('About')}
-                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
-                    About Me
-                </a>
-            </li>
-            <li className='nav-item'>
-                <a href="#contactMe" onClick={() => handlePageChange('ContactMe')}
-                className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}>
-                    Contact
-                </a>
-            </li>
-        </ul>
+            <ul className='nav'>
+                <li className='nav-link'>
+                    <Link to={`/home`}>
+                        Home
+                    </Link>
+                </li>
+                <li className='nav-link'>
+                    <Link to={`/projects`}>
+                        Projects
+                    </Link>
+                </li>
+                <li className='nav-link'>
+                    <Link to={`/`}>
+                        About Me
+                    </Link>
+                </li>
+                <li className='nav-link'>
+                    <Link to={`/contact`}>
+                        Contact
+                    </Link>
+                </li>
+            </ul>
         </div>
     )
 }
